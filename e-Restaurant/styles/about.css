@@ -1,0 +1,165 @@
+:root{
+
+    /* --clr1: #ca7c4e;
+      --clr2: #FFEBC9;*/
+  
+      --clr1: #F5EFE6;
+      --clr2:#BA3B0A;
+      --clr3: rgba(255, 204, 102, 0.634);
+      --clr4:rgb(42, 40, 42);
+  }
+  
+  
+  body{
+      margin: 0;
+      padding: 0;
+      font-family: montserrat;
+      background-color: var(--clr1);
+      background-image: url(../assets/images/aboutnew.png);
+        
+  }
+
+
+
+  .container{
+    margin-top:5rem;
+    margin-left: 25%;
+    top: 70%;
+    left: 50%;
+    
+    width: 700px;
+    border-radius: 10px;
+    background-color: rgba(255, 204, 102, 0.634) ;
+    
+    
+    
+    
+}
+
+
+
+  
+  .about_details p{
+      font-family: 'Crimson Text', serif;
+      font-size: larger;
+      text-align: center;
+      font-weight: 900;
+      padding : 0 10px 20px 10px;
+      color: var(--clr4);
+    
+  }
+  
+  .about_details span{
+      font-size: 450%;
+      font-weight: 50px;
+      text-align: center;
+      font-family: fantasy;
+      margin: 20%;
+      padding-left:70px;
+      text-decoration:underline;
+      color:var(--clr4);
+      align-items: center;
+  }
+  
+  .about_details h2{
+      font-size: large;
+      text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*NAVIGATION BAR STYLES*/
+  #navigation{
+      height: 120px;
+      padding: 0px 60px;
+      background-color: var(--clr2);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      font-family: "Courgette",cursive;
+      
+  }
+  
+  #navigation .item {
+      
+      display: flex;
+      align-items: center;
+  }
+    
+  
+  #navigation .item:last-child {
+      justify-content: flex-end;
+  }
+  
+  
+  #navigation .text a{
+      margin-left: 20px;
+      color: var(--clr1);
+      font-size: 20px;
+      text-decoration: none;
+      
+  }
+    
+  
+  #navigation .item:last-child .text:last-child a {
+      font-size: 30px;
+      font-weight: bold;
+  }
+    
+  
+  #navigation .list {
+      padding: 0;
+      display: flex;
+      align-items: center;
+      list-style: none;
+      color: white;
+  }
+    
+  
+  #navigation .list-item {
+      margin: 20px;
+      font-weight: 800;
+      
+  }
+  
+  
+  
+  
+  
+  /* FOOTER PART  */
+  footer{
+  
+      position: relative;
+      top:15%;
+      height: 15rem;
+      background-color: var(--clr4);
+      bottom:0
+  
+  }
+  
+  footer div{
+  
+      position: absolute;
+      text-align: center;
+      top: 35%;
+      left: 5%;
+  
+  }
+  
+  footer span{
+      position: absolute;
+      top: -5%;
+      left: 46%;
+      color: var(--clr1);
+      text-decoration: underline;
+  }
