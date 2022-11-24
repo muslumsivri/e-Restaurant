@@ -1,0 +1,161 @@
+
+:root{
+
+     /* --clr1: #ca7c4e;
+    --clr2: #FFEBC9;*/
+
+    --clr1: #F5EFE6;
+    --clr2:#BA3B0A;
+    --clr3: rgba(255, 204, 102, 0.634);
+    --clr4:rgb(42, 40, 42);
+}
+
+
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--clr1);
+    background-image: url("../assets/images/fork.png");
+    background-size: cover;
+}
+
+
+
+/*NAVIGATION BAR STYLES*/
+#navigation{
+    height: 120px;
+    padding: 0px 60px;
+    background-color: var(--clr2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    font-family: "Courgette",cursive;
+    
+    
+}
+
+#navigation .item {
+    
+    display: flex;
+    align-items: center;
+}
+  
+
+#navigation .item:last-child {
+    justify-content: flex-end;
+}
+
+
+#navigation .text a{
+    margin-left: 20px;
+    color: var(--clr1);
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+  
+
+#navigation .item:last-child .text:last-child a {
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+
+#navigation .list {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+  
+
+#navigation .list-item {
+    margin: 20px;
+    font-weight: 800;
+    
+}
+
+
+/* FOOTER PART  */
+footer{
+
+    position: relative;
+    top:30rem;
+    height: 200px;
+    background-color: var(--clr4);
+    bottom:0
+
+}
+
+footer div{
+
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 5%;
+
+}
+
+footer span{
+    position: absolute;
+    top: -5%;
+    left: 46%;
+    color: var(--clr1);
+    text-decoration: underline;
+}
+
+/*Main content*/
+#login-container h1{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:400%;
+    color: var(--clr4);
+    opacity: 0.7;
+    
+}
+
+#login-container input{
+
+    margin: 10px;
+    border-radius: 5px;
+    border:solid 3px var(--clr3);
+    font-size: xx-large;
+
+
+}
+
+#login-container button{
+    margin:10px;
+    border-radius: 5px;
+    font-size: large;
+    border: solid 3px var(--clr3);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 40%;
+    height: 35px;
+}
+
+#login-container a{
+    color: var(--clr1);
+    font-size: larger;
+    margin-left: 10px;
+}
+
+#login-container{
+
+    margin: 10%;
+    text-align: center;
+    font-family: montserrat;
+    width: 30%;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    
+    
+    
+   
+}
+
